@@ -1,0 +1,11 @@
+SetEnv RAZORPAY_KEY_ID rzp_test_xxx
+SetEnv RAZORPAY_KEY_SECRET xxx
+
+SetEnv STRIPE_SECRET_KEY sk_test_xxx
+SetEnv STRIPE_WEBHOOK_SECRET whsec_xxx
+
+SetEnv AMADEUS_CLIENT_ID sslUAAuR5BlPxkfPqkzP3gPOtN5mj78j
+SetEnv AMADEUS_CLIENT_SECRET RcSbHNtGIG8urjb7
+SetEnv AMADEUS_ENV production
+SetEnv FLIGHT_PROVIDER AMADEUS
+session.cookie_domain = .mmtrips.com

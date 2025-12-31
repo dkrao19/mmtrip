@@ -1,0 +1,17 @@
+.modal{
+  display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+  background:rgba(0,0,0,.6);z-index:9999
+}
+.modal-content{
+  background:#fff;max-width:520px;margin:60px auto;padding:20px;
+  border-radius:12px;position:relative
+}
+.modal h3{margin-top:0}
+.close{
+  position:absolute;right:16px;top:12px;cursor:pointer;font-size:18px
+}
+.list{margin:10px 0}
+.list div{padding:6px 0;border-bottom:1px solid #eee}
+.badge{font-size:11px;padding:2px 6px;border-radius:6px}
+.badge.ok{background:#e7f9ee;color:#1a7f37}
+.badge.warn{background:#fff3cd;color:#7a5200}
